@@ -5,7 +5,7 @@ int num1,num2;
 char opperation;
 
 
-float calculate(int number1, int number2, char opperation) {
+long calculate(int number1, int number2, char opperation) {
     switch (opperation) {
         case '+':
             return number1 + number2;

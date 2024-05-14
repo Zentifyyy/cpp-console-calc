@@ -1,11 +1,3 @@
 # ninja log v5
-6	686	7374078832627912	CMakeFiles/console_calc.dir/main.cpp.obj	f3aa446b2af83ff4
-689	871	7374078834439472	console_calc.exe	7a2109b888763605
-10	791	7374082632780776	CMakeFiles/console_calc.dir/main.cpp.obj	f3aa446b2af83ff4
-791	928	7374082634121995	console_calc.exe	7a2109b888763605
-18	699	7374082953488099	CMakeFiles/console_calc.dir/main.cpp.obj	f3aa446b2af83ff4
-700	831	7374082954769257	console_calc.exe	7a2109b888763605
-17	683	7374083222259276	CMakeFiles/console_calc.dir/main.cpp.obj	f3aa446b2af83ff4
-683	813	7374083223520425	console_calc.exe	7a2109b888763605
-18	677	7374083888585431	CMakeFiles/console_calc.dir/main.cpp.obj	f3aa446b2af83ff4
-678	809	7374083889871862	console_calc.exe	7a2109b888763605
+10	694	7374085186390536	CMakeFiles/console_calc.dir/main.cpp.obj	f3aa446b2af83ff4
+695	828	7374085187691812	console_calc.exe	7a2109b888763605
