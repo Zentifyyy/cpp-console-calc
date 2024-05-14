@@ -1,0 +1,3 @@
+C:/Users/alfie/Desktop/Projects/Code/cpp/console-calc/cmake-build-debug/CMakeFiles/console_calc.dir
+C:/Users/alfie/Desktop/Projects/Code/cpp/console-calc/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alfie/Desktop/Projects/Code/cpp/console-calc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
