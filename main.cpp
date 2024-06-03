@@ -1,33 +1,37 @@
 #include <iostream>
-using namespace std;
 
-int num1,num2;
-char opperation;
+struct numbers {
+    int num1,num2;
+    char opperation;
+};
 
-
-long calculate(int number1, int number2, char opperation) {
-    switch (opperation) {
+double calculate(const numbers* nums) {
+    switch (nums -> opperation) {
         case '+':
-            return number1 + number2;
+            return nums -> num1 + nums -> num2;
         case '-':
-            return number1 - number2;
+            return nums -> num1 - nums -> num2;
         case '/':
-            return number1 / number2;
+            return nums -> num1 / nums -> num2;
         case 'x':
-            return number1 * number2;
-        default: return 0;
+            return nums -> num1 * nums -> num2;
+        default:
+            delete nums;
+        return 0;
     }
 }
 
 int main() {
-    cout << "Input Number 1" << endl;
-    cin >> num1;
-    cout << "Input your operation" << endl;
-    cin >> opperation;
-    cout << "Now Choose Your Second Number" << endl;
-    cin >> num2;
+    numbers *nums = new numbers;
 
-    cout << "Your final number is :" << calculate(num1,num2,opperation) << endl;
+    std::cout << "Input Your First Number" << std::endl;
+    std::cin >> nums -> num1;
 
-    return 0;
+    std::cout << "Input your operation" << std::endl;
+    std::cin >> nums -> opperation;
+
+    std::cout << "Now Input Your Second Number" << std::endl;
+    std::cin >> nums -> num2;
+
+    std::cout << "Your final number is :" << calculate(nums) << std::endl;
 }
